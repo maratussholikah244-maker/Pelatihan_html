@@ -1,18 +1,23 @@
 body {
   background-color: #8B008B;
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: #191970;
 }
-.kartu-foto profil {
-  width:300px;
-  margin:20px;
-  background-color:cyan;
-  border-radius:15px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
-  text-align:center;
+
+/* Kartu profil */
+.kartu-pp {
+  width: 300px;
+  margin: 50px auto; /* jarak atas/bawah 50px, auto untuk tengah kiri/kanan */
+  padding: 20px;
+  background-color: cyan;
+  border-radius: 15px; /* sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* efek bayangan */
+  text-align: center; /* semua teks ke tengah */
 }
-.kartu-foto profil img{
-  width:150px;
-  height:150px;
-  border-radius:50%;
+
+/* Gambar profil */
+.kartu-pp img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* membuat gambar menjadi lingkaran */
 }
